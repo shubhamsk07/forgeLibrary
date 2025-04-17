@@ -44,7 +44,7 @@ body.dark {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 10;
   background-color: white;
   border-bottom:solid #d2d8e045 1px;
 

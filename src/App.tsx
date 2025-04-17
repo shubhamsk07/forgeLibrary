@@ -14,6 +14,7 @@ import ButtonPage from './pages/components/ButtonComp';
 import InputPage from './pages/components/InputComp';
 import LetterSpacingDocs from './pages/docs/LetterSpacing';
 import Docs from './pages/UtilsDocs';
+import ModalComp from './pages/components/ModalComp';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
       <Route path='/docs/grid' element={<GridDocs />} />
       <Route path='/components/button' element={<ButtonPage/>} />
       <Route path='/components/input' element={<InputPage/>} />
+      <Route path='/components/input' element={<InputPage/>} />
+      <Route path='/components/modal' element={<ModalComp/>} />
     </Routes>
   </BrowserRouter>
   );

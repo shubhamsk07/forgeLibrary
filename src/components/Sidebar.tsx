@@ -79,8 +79,8 @@ const Sidebar = () => {
                     <Link to="/components/input" className="text-primary text-sm" style={{ textDecoration: 'none' }}>
                         Input Box
                     </Link>
-                    <Link to="/components/form" className="text-primary text-sm" style={{ textDecoration: 'none' }}>
-                        Form
+                    <Link to="/components/modal" className="text-primary text-sm" style={{ textDecoration: 'none' }}>
+                        Modal
                     </Link>
                     </div>
 

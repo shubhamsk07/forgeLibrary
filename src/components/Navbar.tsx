@@ -35,7 +35,7 @@ function Navbar() {
 
       {/* GitHub Icon */}
       <div className="github-icon px-4">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/shubhamsk07/forgeLibrary" target="_blank" rel="noopener noreferrer">
           <FaGithub color={`${darkMode?'white':'black'} `}/>
         </a>
       </div>
