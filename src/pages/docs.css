@@ -1,0 +1,29 @@
+.docs-wrapper {
+    font-family: Arial, sans-serif;
+    color: var(--color-dark);
+    background: var(--color-light);
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .docs-header h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+  }
+
+  .docs-content section {
+    margin-bottom: 2rem;
+  }
+
+  pre {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    overflow: auto;
+    border-radius: 8px;
+  }
+
+  code {
+    font-family: monospace;
+    color: var(--color-accent);
+  }

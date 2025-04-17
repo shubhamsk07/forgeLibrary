@@ -1,0 +1,171 @@
+
+:root{
+  --font-primary:  "Inter", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+  /* Secondary font */
+  --font-monospace: "Inter", sans-serif;
+  --color-primary: black;
+  --color-secondary: gray;
+  --accent-color:'white';
+
+}
+.page-content {
+  margin-left: 250px;
+  margin-top:20px;
+  padding: 24px;
+  height: 100%;
+  overflow-y: scroll;
+  box-sizing: border-box;
+
+  /* Hide scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.page-content::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: var(--font-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+body.dark {
+  background-color: #000000;
+  color: #FAFAFA;
+}
+
+.navbar {
+  display: flex;
+  height:52px;
+  padding: 10px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom:solid #d2d8e045 1px;
+
+
+  transition: background-color 0.3s ease;
+}
+
+
+body.dark .navbar {
+  background-color: #09090B;
+}
+.body-layout {
+  display: flex;
+  flex: 1;
+  margin-top: 64px;
+  height: calc(100vh - 64px);
+}
+
+
+.logo{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+body.dark .logo {
+  color: #FAFAFA;
+}
+
+
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+}
+
+body.dark .nav-links a {
+  color: #FAFAFA;
+}
+
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding:8px 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 250px;
+}
+
+body.dark .search-input {
+  background-color: #444;
+  border-color: #666;
+  color: #FAFAFA;
+}
+
+
+.github-icon {
+  font-size: 24px;
+  color: #111827;
+}
+
+body.dark .github-icon {
+  color: #FAFAFA;
+}
+
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #111827;
+}
+
+body.dark .theme-toggle {
+  color: #FAFAFA;
+}
+
+.code-block {
+  background-color: #1f1e1e;
+  color: #d4d4d4;
+  font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+
+  border-radius: 8px;
+  width: fit-content;
+
+  padding-right: 60px;
+  overflow-x: auto;
+  white-space: pre;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.token.punctuation {
+  color: #d4d4d4;
+}
+
+.code-color2 {
+  color: #569cd6;
+}
+
+.code-color3{
+  color:rgb(149, 149, 0)
+}
+.token.boolean,
+.token.number {
+  color: #b5cea8;
+}
+
+
+.code-color1 {
+  color: #c586c0;
+}
+

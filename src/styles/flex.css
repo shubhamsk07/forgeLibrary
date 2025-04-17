@@ -1,0 +1,75 @@
+
+
+  .docs-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .docs-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+
+  /* Section for Flexbox Utilities */
+  .flex-utilities-section {
+    margin-bottom: 3rem;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  /* Grid to arrange flex examples */
+  .flex-utilities-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 600px) {
+    .flex-utilities-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .flex-utilities-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  /* Flex example boxes */
+  .flex-example-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    min-width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+
+  .example-class-name {
+    font-family: monospace;
+    font-size: 0.875rem;
+    color: #888;
+    margin-right: 1rem;
+  }
+
+  .example-content {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  /* Optional: Hover effect to show some interactivity */
+  .flex-example-box:hover {
+    background-color: #f7f7f7;
+    border-color: #bbb;
+  }
