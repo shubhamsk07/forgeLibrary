@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DocsLayout from '../../components/DocsLayout';
 import DocsTitle from '../../components/DocsTitle';
 import Input from '../../library/ui/Input';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { solarizedDarkAtom, solarizedlight } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { solarizedDarkAtom } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { ClipboardCopy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 

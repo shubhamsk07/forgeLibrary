@@ -1,4 +1,4 @@
-import React from 'react';
+
 import DocsLayout from '../../components/DocsLayout';
 import DocsTitle from '../../components/DocsTitle';
 import "../../styles/flex.css"

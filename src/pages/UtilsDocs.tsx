@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./docs.css";
 import DocsLayout from "../components/DocsLayout";
 import { Link } from "react-router-dom";
