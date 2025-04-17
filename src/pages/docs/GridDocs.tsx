@@ -54,7 +54,6 @@ const GridDocs = () => {
                   border: '1px dashed #ccc',
                   padding: '1rem',
                   borderRadius: '8px',
-                  backgroundColor: '#fff',
                   minHeight: '50px',
                 }}
               >

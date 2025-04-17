@@ -3,7 +3,7 @@ import DocsLayout from '../../components/DocsLayout';
 import DocsTitle from '../../components/DocsTitle';
 import Button from '../../library/ui/Button';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { solarizedDarkAtom, solarizedlight } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { solarizedDarkAtom} from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { ClipboardCopy } from 'lucide-react';
 
 import { Link } from 'react-router-dom';
@@ -123,7 +123,7 @@ const ButtonPage = () => {
                 {buttonCode}
               </SyntaxHighlighter>
             </div>
-            <p className='mb-3'>2. Update the import paths to match your project setup.  </p>
+            <p className='mb-3' onClick={()=>setCopyText(copyText)}>2. Update the import paths to match your project setup.  </p>
           </section>
           <div className='flex justify-between  mb-6'>
                     <div className='flex justify-end mb-6'>

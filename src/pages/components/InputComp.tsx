@@ -135,7 +135,7 @@ const InputPage = () => {
           </section>
         </div>
 
-        <div style={{ width: '100px', visibility: 'hidden' }}></div>
+        <div onClick={()=>setCopyText(copyText)} style={{ width: '100px', visibility: 'hidden' }}></div>
       </div>
     </DocsLayout>
   );

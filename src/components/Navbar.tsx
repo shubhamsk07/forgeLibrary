@@ -1,5 +1,5 @@
 // components/Navbar.jsx
-import { GitBranch, GitForkIcon, Moon, Sun } from 'lucide-react';
+import {  Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
