@@ -19,7 +19,7 @@ const FontWeightDocs = () => {
   return (
     <DocsLayout>
       <div className="page-content" style={{ display: 'flex', gap: '2rem' }}>
-        {/* Main content */}
+
         <div style={{ flex: 1 }}>
           <DocsTitle title="Font Weight Utilities" />
           <h1 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1rem' }}>
@@ -29,7 +29,7 @@ const FontWeightDocs = () => {
             Below are utility classes for applying font weights in your design system.
           </p>
 
-          {/* Font Weights */}
+
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
               Font Weights
@@ -67,7 +67,7 @@ const FontWeightDocs = () => {
           </section>
         </div>
 
-        {/* Invisible right div to align like docs */}
+
         <div style={{ width: '150px', visibility: 'hidden' }}></div>
       </div>
     </DocsLayout>

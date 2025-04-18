@@ -1,4 +1,4 @@
-/* Sidebar container */
+
 .sidebar-container {
     height: 100%;
     width: 250px;
@@ -9,50 +9,48 @@
     border-right:solid #d2d8e045 1px;
 }
 
-/* Navigation inside sidebar */
 .sidebar-nav  a{
      color:black;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Add more space between sections */
+    gap: 10px;
 }
 
 .dark .sidebar-nav a{
     color:#FAFAFA
 }
 
-/* Section styling */
 .sidebar-section {
     display: flex;
     flex-direction: column;
     gap:2px;
 }
 
-/* Sidebar heading styles */
+
 .sidebar-heading {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #333; /* Dark gray text */
+    color: #333;
     margin-bottom: 8px;
 }
 
-/* Link styles */
+
 .sidebar-link {
-    color: #333; /* Dark gray text */
+    color: #333;
 
-    text-decoration: none; /* Remove underline */
-    font-weight: 500; /* Medium font weight */
-    transition: color 0.3s ease; /* Smooth hover transition */
-    padding-left: 16px; /* Indentation for the links */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding-left: 16px;
 }
 
-/* Hover effect */
+
 .sidebar-link:hover {
-    color: #5a67d8; /* Indigo color on hover (change to your preference) */
+    color: #5a67d8;
 }
 
-/* Active link style (optional) */
+
 .sidebar-link.active {
-    font-weight: 600; /* Bold text for active link */
-    color: #4c51bf; /* Strong indigo color for active state */
+    font-weight: 600;
+    color: #4c51bf;
 }

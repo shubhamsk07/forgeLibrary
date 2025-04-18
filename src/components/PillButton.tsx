@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Define a Styled Pill Button component
+
 const StyledPillButton = styled.button`
   padding: 0.25rem 1rem;
   margin-top:20px;

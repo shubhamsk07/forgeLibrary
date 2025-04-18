@@ -13,7 +13,7 @@ const TextUtilitiesDocs = () => {
   return (
     <DocsLayout>
       <div className="page-content" style={{ display: 'flex', gap: '2rem' }}>
-        {/* Main content */}
+
         <div style={{ flex: 1 }}>
           <DocsTitle title="Text Utilities" />
           <h1 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1rem' }}>
@@ -23,7 +23,7 @@ const TextUtilitiesDocs = () => {
             These utility classes help you control text alignment, decoration, transformation, color, and overflow behavior.
           </p>
 
-          {/* Text Alignment */}
+
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
               Text Alignment
@@ -48,7 +48,7 @@ const TextUtilitiesDocs = () => {
             </div>
           </section>
 
-          {/* Text Decoration */}
+
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
               Text Decoration
@@ -73,7 +73,7 @@ const TextUtilitiesDocs = () => {
             </div>
           </section>
 
-          {/* Text Transform */}
+
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
               Text Transform
@@ -98,7 +98,7 @@ const TextUtilitiesDocs = () => {
             </div>
           </section>
 
-          {/* Text Color */}
+
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
               Text Color
@@ -122,7 +122,7 @@ const TextUtilitiesDocs = () => {
             </div>
           </section>
 
-          {/* Text Overflow */}
+
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
               Text Overflow

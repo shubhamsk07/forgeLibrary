@@ -1,5 +1,4 @@
 :root {
-
     --color-primary: black;
     --color-secondary:gray;
     --color-accent: white;
@@ -103,15 +102,12 @@
     grid-template-columns: repeat(12, 1fr);
     gap: 1rem;
   }
-
   .col-span-1 {
     grid-column: span 1;
   }
-
   .col-span-2 {
     grid-column: span 2;
   }
-
   .col-span-3 {
     grid-column: span 3;
   }

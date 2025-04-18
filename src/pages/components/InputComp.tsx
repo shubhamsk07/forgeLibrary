@@ -79,7 +79,7 @@ const CopyButton = ({ code }: { code: string }) => {
         cursor: 'pointer',
         position: 'absolute',
         right: '10px',
-        top: '-30px', // Adjust positioning above the code block
+        top: '-30px',
         display: 'inline-flex',
         alignItems: 'center',
       }}

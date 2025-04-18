@@ -21,7 +21,7 @@ const FontSizeDocs = () => {
   return (
     <DocsLayout>
     <div className="page-content" style={{ display: 'flex', gap: '2rem' }}>
-      {/* Main content */}
+
       <div style={{ flex: 1 }}>
         <DocsTitle title="Font Size Utilities" />
         <h1 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1rem' }}>
@@ -31,7 +31,7 @@ const FontSizeDocs = () => {
           Below are utility classes for applying font sizes in your design system.
         </p>
 
-        {/* Font Size */}
+
         <section style={{ marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem' }}>
             Font Sizes
@@ -67,7 +67,7 @@ const FontSizeDocs = () => {
                     </div>
       </div>
 
-      {/* Invisible div to align layout */}
+
       <div style={{ width: '150px', visibility: 'hidden' }}></div>
 
     </div>
