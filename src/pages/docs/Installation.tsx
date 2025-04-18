@@ -16,7 +16,7 @@ const Installation = () => {
 
                     <h2 className="text-xl font-semibold mb-1">1. Add Forge UI to your HTML</h2>
                     <p className="mb-4">
-                        Forge UI is currently available <strong>only via CDN</strong>. Just copy and paste the following link into the <code>&lt;head&gt;</code> of your HTML:
+                        Forge UI is currently available <strong>only via CDN</strong>. Just copy and paste the following link into the {'<'}head{'>'} of your HTML:
                     </p>
                     <pre className="bg-gray-100 p-4 rounded mb-3 overflow-x-auto code-block">
                         <code>
